@@ -1,27 +1,27 @@
-# ClienteWeb
+# ClientesWeb - Projeto Angular para Gerenciamento de Clientes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+Este projeto Angular foi desenvolvido para servir como uma interface de cliente para uma API RESTful em C# dedicada ao gerenciamento de clientes (CRUD - Create, Read, Update, Delete). Utilizamos diversas bibliotecas e ferramentas para garantir uma experiência de usuário fluida e eficiente.
 
-## Development server
+## Funcionalidades Principais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **CRUD de Clientes**: Integração completa com a API em C# para as operações de criação, leitura, atualização e exclusão de clientes.
+- **Paginação**: Implementada com a biblioteca `ngx-pagination` para facilitar a navegação entre páginas de registros.
+- **Carregamento com Spinner**: Uso de `ngx-spinner` para exibir animações de carregamento durante as requisições à API.
+- **Máscaras de Formulário**: `ngx-mask` foi adicionado para formatar campos de entrada, como CPF, telefone, etc.
+- **Ligação com a API**: Conexão com a API RESTful através da biblioteca `HttpClient`, com CORS configurado para permitir requisições da aplicação Angular.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Versão 18.2.10
+- **Bootstrap**: A versão mais recente do Bootstrap foi utilizada para estilização e responsividade.
+- **ngx-spinner**: Para feedback visual durante o carregamento dos dados.
+- **ngx-pagination**: Implementação de paginação para a listagem de clientes.
+- **ngx-mask**: Aplicação de máscaras de entrada nos formulários.
+- **HttpClient**: Biblioteca do Angular para comunicação HTTP com a API, com suporte a CORS.
 
-## Build
+## Instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seuusuario/ClientesWeb.git
+   cd ClientesWeb
