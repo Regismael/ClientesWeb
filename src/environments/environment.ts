@@ -1,3 +1,5 @@
 export const environment = {
-    clientesApi : ''
+    clientesApi : '',
+    usuariosApi : '',
+    cryptoKey: ''
 };

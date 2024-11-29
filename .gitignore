@@ -1,42 +1,52 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
-
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
+# Angular Specific
 .DS_Store
 Thumbs.db
+*.log
+*.lock
+*.lockfile
+*.tmp
+*.swp
+.idea/
+.vscode/
+node_modules/
+bower_components/
+
+# Compiled output
+dist/
+build/
+esm/
+
+# Temporary folders
+.temp/
+.cache-loader/
+.angular/cache/
+.angular/**/cache/
+
+# Local environment
+*.env
+*.local
+*.bak
+*.backup
+environments/environment*.ts
+
+# System Files
+.sass-cache/
+*.pid
+
+# IDE Configurations
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Coverage reports
+coverage/
+
+# npm debug file
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+*.gz
+*.tgz
+*.zip
